@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)"> -->
+    <link rel="stylesheet" media="screen and (max-width: 991.98px)" href="/css/mobile.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 992px)" href="/css/desktop.css"> -->
+    <script defer src="js/script.js"></script>
+    <title>bLaNkO</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="header__elem start">
+                <a class="logo">
+                    <img src="pics/logo.svg" alt="Blanko Logo">
+                </a>
+                <a class="header__mail" href="mailto:mail@blanko.com">
+                    <span>mail@blanko.com</span>
+                </a>
+            </div>
+            <div class="header__elem burger end">
+                <button class="button-burger"></button>
+                <!-- <img src="pics/burger.svg" alt=""> -->
+            </div>
+            <div class="header__elem header__content end">
+                <div class="header__nav  header-container">
+                    <li class="nav__elem"><a href="" class=""><span>Landing</span></a></li>
+                    <li class="nav__elem"><a href="" class=""><span>All pages</span></a></li>
+                    <li class="nav__elem"><a href="" class=""><span>Template</span></a></li>
+                </div>
+                <button class="nav__purchase">Purchase template</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero--container">
+                <div class="hero__elem">
+                    <h1 class="hero__title">Blanko template</h1>
+                    <p class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Odio mauris porttitor amet volutpat.</p>
+                    <div class="hero__buttons">
+                        <button class="hero__button purchase">Purchase template</button>
+                        <button class="hero__button other-temp">Other templates</button>
+                    </div>
+                </div>
+                <div class="hero__elem">
+                    <img class="hero__pic" src="pics/hero_img.png" alt="Blanko template">
+                </div>
+            </div>
+        </section>
+        <section class="pluses">
+            <div class="container pluses--container">
+                <div class="pluses__elem">
+                    <img class="pluses__icons" src="pics/sectionIcon-1.svg" alt="speed-icon">
+                    <div class="pluses__text">
+                        <h3 class="pluses__title">Speed</h3>
+                        <p class="pluses__subtitle">Open a commercial-grade current account from anywhere</p>
+                    </div>
+                </div>
+                <div class="pluses__elem">
+                    <img class="pluses__icons" src="pics/sectionIcon-2.svg" alt="design-icon">
+                    <div class="pluses__text">
+                        <h3 class="pluses__title">Design</h3>
+                        <p class="pluses__subtitle">Open a commercial-grade current account from anywhere</p>
+                    </div>
+                </div>
+                <div class="pluses__elem">
+                    <img class="pluses__icons" src="pics/sectionIcon-3.svg" alt="modularity-icon">
+                    <div class="pluses__text">
+                        <h3 class="pluses__title">Modularity</h3>
+                        <p class="pluses__subtitle">Open a commercial-grade current account from anywhere</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review">
+            <div class="container review--container">
+                <div class="slideshow-container">
+                    <div class="slider__elem fade">
+                        <div class="slider__content">
+                            <img class="druk" src="pics/DRUK.svg" alt="DRUK">
+                            <p class="review__text">“Join a community of industry leading professionals. Join a community of industry leading professionals.“</p>
+                            <p class="review__author">
+                                <span class="slide--author">Laura Paula<br></span>
+                                <span class="slide--company">Director @Company</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__elem fade">
+                        <div class="slider__content">
+                            <img class="druk" src="pics/DRUK.svg" alt="DRUK">
+                            <p class="review__text">“Join a community of industry leading professionals. Join a community of industry leading professionals.“</p>
+                            <p class="review__author">
+                                <span class="slide--author">Paula Laura<br></span>
+                                <span class="slide--company">NonDirector @NonCompany</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__elem fade">
+                        <div class="slider__content">
+                            <img class="druk" src="pics/DRUK.svg" alt="DRUK">
+                            <p class="review__text">“Join a community of industry leading professionals. Join a community of industry leading professionals.“</p>
+                            <p class="review__author">
+                                <span class="slide--author">Laula Paura<br></span>
+                                <span class="slide--company">DirectorNon @CompanyNon</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__btns">
+                        <a class="slider__prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="slider__next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <div class="slider__dots">
+                        <span class="review__dots" onclick="plusSlides(-1)"></span>
+                        <span class="review__dots" onclick="plusSlides(1)"></span>
+                        <span class="review__dots" onclick="plusSlides(1)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="landing">
+            <div class="container landing--container">
+                <h2 class="landing__title">Landing pages</h2>
+                <ul class="landing--list">
+                    <li class="landing__elem">
+                        <a href="#">
+                            <img class="landing__pics" src="pics/landing1.png" alt="">
+                            <h3 class="landing__titles">Landing one</h3>
+                        </a>
+                    </li>
+                    <li class="landing__elem">
+                        <a href="#">
+                            <img class="landing__pics" src="pics/landing2.png" alt="">
+                            <h3 class="landing__titles">Landing two</h3>
+                        </a>
+                    </li>
+                    <li class="landing__elem break">
+                        <a href="#">
+                            <img class="landing__pics" src="pics/landing3.png" alt="">
+                            <h3 class="landing__titles">Landing three</h3>
+                        </a>
+                    </li>
+                    <li class="landing__elem">
+                        <a href="#">
+                            <img class="landing__pics" src="pics/landing4.png" alt="">
+                            <h3 class="landing__titles">Landing four</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="logo">
+                    <img src="pics/logo.svg" alt="Blanko Logo">
+                </a>
+                <button class="get-on">Get on Webflow</button>
+            </div>
+            <div class="footer__middle">
+                <ul class="footer__list">
+                    <li><a href="#">Showcase</a></li>
+                    <li><a href="#">Landing one</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Other templates</a></li>
+                </ul>
+                <ul class="social__list">
+                    <li class="social__elem"><a href="#" class="social__link social__link--insta" target="_blank" aria-label="Link to Instagram"></a></li>
+                    <li class="social__elem"><a href="#" class="social__link social__link--tw" target="_blank" aria-label="Link to Twitter"></a></li>
+                    <li class="social__elem"><a href="#" class="social__link social__link--fb" target="_blank" aria-label="Link to Facebook"></a></li>
+                </ul>
+            </div>
+            <div class="footer__bottom">
+                <ul class="footer__suptext">
+                    <li class="footer__elem">Powered by</li>
+                    <li class="footer__elem"> <img src="pics/webflow.svg" alt=""></li>
+                    <li class="footer__elem">Designed by </li>
+                    <li class="footer__elem">Veljko</li>
+                </ul>
+                <div class="footer__contacts">
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
